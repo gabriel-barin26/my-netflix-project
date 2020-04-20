@@ -1,0 +1,59 @@
+.card-black {
+	background-color: black;
+    width: 100%;
+    height: 473.922px;
+    padding: 70px 45px;
+    border-bottom: 8px solid #222;
+    z-index: 0;
+}
+
+.card-black img {
+	width: 530px;
+	z-index: 2;
+	position: absolute;
+
+}
+
+
+.text-white {
+	width: 547px;
+	float: left;
+	margin: 72px;
+}
+
+#text-white-reverse {
+	float: right;
+	margin: 10px;
+}
+
+
+#video-autoplay-computer {
+	height: 36%;
+    max-width: 72%;
+    max-height: 66%;
+    position: absolute;
+    z-index: 1;
+    right: 189px;
+}
+
+.img-container {
+	display: flex; 
+}
+
+#img-container-computer video {
+	padding-top: 43px;
+}
+
+#img-container-tv video {
+	padding-top: 83px;
+}
+
+#video-autoplay-tv {
+	height: 48%;
+    max-width: 89%;
+    max-height: 88%%;
+    position: absolute;
+    z-index: 1;
+    right: 157px;
+}
+
